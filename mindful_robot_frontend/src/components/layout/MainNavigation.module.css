@@ -1,0 +1,128 @@
+.NavContainer {
+  /* background: linear-gradient(
+    to bottom,
+    rgb(177, 179, 190),
+    rgb(228, 224, 224)
+  ); */
+  background-color: rgb(213, 218, 224);
+  position: relative;
+}
+
+.NavContainer h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+  margin: 0px 0px;
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: rgb(207, 13, 13);
+  outline: none;
+  /* text-shadow: rgb(207, 13, 13) 0 2px 7px; */
+  /* color: rgb(210, 237, 243); */
+  /* -webkit-text-stroke-width: 0.35px;
+  -webkit-text-stroke-color: black; */
+  /* color: rgb(210, 237, 243); */
+}
+
+.NavContainer p {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.25em;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+/* @keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: rgb(207, 13, 13);
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: rgb(201, 37, 37) 0 0 10px, rgb(201, 37, 37) 0 0 20px,
+      rgb(201, 37, 37) 0 0 40px, rgb(201, 37, 37) 0 0 80px,
+      rgb(201, 37, 37) 0 0 160px;
+  }
+} */
+
+.NavItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavItems p {
+  border-right: solid rgb(95, 91, 91) 1px;
+  font-size: 1.2em;
+  padding-right: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(95, 91, 91);
+}
+
+.NavItems ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.NavItems ul li {
+  list-style: none;
+  padding: 0px 40px;
+}
+
+.NavItems ul li a {
+  text-decoration: none;
+  color: rgb(219, 75, 75);
+  font-family: "Roboto Condensed", sans-serif;
+  transition: all 0.3s;
+}
+
+.NavItems ul li a:hover {
+  font-size: 1.5em;
+}
+
+.burger {
+  position: absolute;
+  top: 50px;
+  right: 70px;
+  cursor: pointer;
+  width: 32px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 7px;
+  transition: all 0.3s ease;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 9px);
+  background-color: #d2232a;
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -9px);
+  background-color: #d2232a;
+}
+
+color: rgb(219, 75, 75);

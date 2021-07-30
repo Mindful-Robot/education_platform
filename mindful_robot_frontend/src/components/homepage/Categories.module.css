@@ -1,0 +1,54 @@
+.category {
+  height: 200px;
+  border: 4px solid black;
+  border-radius: 20px;
+  padding: 0px 30px;
+}
+
+.category:hover {
+  border: 4px solid green;
+}
+
+.topics {
+  background-image: url("../../static/images/stock/mindful_robot_stock_topics.pdf");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.forums {
+  background-image: url("../../static/images/stock/mindful_robot_stock_topics.pdf");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.creator {
+  background-image: url("../../static/images/stock/mindful_robot_stock_creator.eps");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.meetups {
+  background-image: url("../../static/images/stock/mindful_robot_stock_meetup.eps");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.link {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.category h1 {
+  padding: 15px 0px;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  color: black;
+  opacity: 0.8;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, 0.7);
+}

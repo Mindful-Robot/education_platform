@@ -1,0 +1,13 @@
+.HomepageHeading {
+  padding: 60px 20px;
+  font-family: "Prompt", sans-serif;
+}
+
+.HomepageHeading h1 {
+  font-size: 3em;
+  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
